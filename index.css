@@ -1,29 +1,75 @@
-.absolute1{
-    position: absolute;
-    top: 100px;
-    left: 50px;
+body{
+    max-width: 1200px;
+    margin: 0 auto;
 }
-.absolute2{
+.menu{
+    width: 100%;
+    height: 50px;
+}
+.menu ul {
+    display: inline;   
+}
+.right {
+    float: right;
+}
+.left{
+    float: left;
+    margin-left: 50px;
+}
+.banner{
+    position: relative;
+}
+.banner h1 {
     position: absolute;
     top: 150px;
     left: 50px;
+    color: white;
 }
-img{
+.banner p{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: white;
+}
+.banner img{
     width: 100%;
-    margin: 10px;
 }
-.menu div{
-    display: inline;
+.content{
+    background-color: #efefef;
 }
-.right{
-    float: right;
+.content h3{
+    margin-left: 50px;
+    margin-top: 20px;
 }
-.row{
+.content p{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.table-img{
     display: grid;
-    grid-template-columns: 33% 33% 31.7%;
-
+    grid-template-columns: 33% 33% 33%;
+    margin: 50px;
 }
-.row div{
-    padding: 10px;
-}
+.col{
+  display: inline-block;
+  width: 300px;
+  height: auto;
   
+}
+.table-img div img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+   
+}
+.footer{ 
+   
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;  
+}
+.footer a{
+    text-decoration: none;
+}
+
