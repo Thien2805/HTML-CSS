@@ -1,75 +1,72 @@
-body{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.menu{
-    width: 100%;
-    height: 50px;
-}
-.menu ul {
-    display: inline;   
-}
-.right {
-    float: right;
-}
-.left{
-    float: left;
-    margin-left: 50px;
-}
-.banner{
-    position: relative;
-}
-.banner h1 {
-    position: absolute;
-    top: 150px;
-    left: 50px;
-    color: white;
-}
-.banner p{
-    position: absolute;
-    top: 200px;
-    left: 50px;
-    color: white;
-}
-.banner img{
-    width: 100%;
-}
-.main-content{
-    background-color: #efefef;
-}
-.content h3{
-    margin-left: 50px;
-    margin-top: 20px;
-}
-.content p{
-    margin-left: 50px;
-    margin-top: 0px;
-}
-.table-img{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    margin-left: 50px;
-    padding-right: 10px;
-}
-.col{
-  display: inline-block;
-  width: 300px;
-  height: auto;
-  
-}
-.table-img div img{
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 10px;
+/* For mobile phones: */
+body {
+    background-color: black;
+    }
+    @media only screen and (min-width: 768px) {
+    /* For tablets: */
+    body {
+    background-color: green;
+    }
+    }
+    @media only screen and (min-width: 987px) {
+    /* For desktop: */
+    body {
+    background-color: pink;
+    }
+    }
+    body{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .menu {
+        background-color: grey;
+        width: 100%;
+        height: 70px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        text-decoration: none ;    
+    }
+    .banner{
+        margin-left: 60px;
+    }
+    .menu a{
+        color: white;   
+        margin-left: 20px;
+    }
+    .left{
+        padding: 30px;
+        margin-left: -70px;
+    }
+    .right{
+        float: right;
+        margin-top: -50px;
+        margin-right: 20px;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        height: auto;
+    }
+    .row img{
+        padding-bottom: 50px;
+        width: 510px;
+        height: auto;
+    }
+    .footer-1{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .footer-2{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .footer-3{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+
+
    
-}
-.footer{ 
-   
-    padding-left: 50px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;  
-}
-.footer a{
-    text-decoration: none;
-}
+    
