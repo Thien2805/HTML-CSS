@@ -1,8 +1,5 @@
-
-.navbar-inline{
-    color: white;
-    
-    text-decoration: none;
+.img{
+    padding: 10px;
     
 }
 .banner-img{
@@ -35,7 +32,6 @@
         margin-top: 50px !important;
     }
 
-
 }
 @media only screen and (min-width: 987px) {
     /* For desktop: */
@@ -63,7 +59,7 @@
 
 }
     
-}
+
 
 
         
